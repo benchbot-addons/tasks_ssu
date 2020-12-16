@@ -13,3 +13,4 @@ observations:
   - laser
   - poses
 result_type: object_map
+scene_count: 2
