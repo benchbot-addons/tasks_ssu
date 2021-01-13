@@ -12,4 +12,4 @@ observations:
   - image_rgb_info
   - laser
   - poses
-result_type: object_map
+result_format: object_map
