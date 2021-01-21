@@ -1,9 +1,10 @@
-name: "semantic_slam:passive:ground_truth"
+name: "semantic_slam:active:dead_reckoning"
 description: |
   Use a Semantic SLAM algorithm to construct an object map of the environment. An object map describes each object with a probabilistic label suggestion, spatial location, and optional probabilistic state change suggestion. This task provides active robot control, and sensor observations with a noisy robot pose.
 type: sim_unreal
 actions:
-  - move_next
+  - move_angle
+  - move_distance
 observations:
   - image_depth
   - image_depth_info
