@@ -11,5 +11,5 @@ observations:
   - image_rgb_info
   - laser
   - poses
-results_format: object_map
+results_format: object_map_with_states
 scene_count: 2
