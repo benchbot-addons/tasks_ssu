@@ -2,6 +2,7 @@ name: "scd:passive:ground_truth"
 description: |
   Detect changes between two scenes of an environment. An object map describes each changed object with a probabilistic label suggestion, spatial location, and probabilistic state change suggestion (added, removed, changed). This task provides passive robot control, and sensor observations with ground truth robot pose.
 type: sim_unreal
+localisation: ground_truth
 actions:
   - move_next
 observations:
